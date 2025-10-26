@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/*  tailwindcss */
 @import "tailwindcss";
+/*  flowbite */
+@import "flowbite/src/themes/default";
+/*  flowbite plugin */
+@plugin "flowbite/plugin";
+/* flowbite source  */
+@source "../node_modules/flowbite";
+
+
+
 
 :root {
   /* ======================================================================

@@ -14,7 +14,9 @@ import { PiArrowsCounterClockwise } from "react-icons/pi";
 import { FiHeadphones } from "react-icons/fi";
 import { GoInfo } from "react-icons/go";
 import { FaPhoneVolume } from "react-icons/fa6";
-
+import { BsBoxSeam } from "react-icons/bs";
+import { GrTrophy } from "react-icons/gr";
+import { BsWalletFill } from "react-icons/bs";
 
 export const allIcons = {
   rightArrow: <FaArrowRightLong />,
@@ -38,5 +40,11 @@ export const allIcons = {
     { id: 3, icon: <FiHeadphones /> },
     { id: 4, icon: <GoInfo /> },
     { id: 5, icon: <FaPhoneVolume /> },
+  ],
+  featureIcon: [
+    { id: 1, icon: <BsBoxSeam /> },
+    { id: 2, icon: <GrTrophy /> },
+    { id: 3, icon: <BsWalletFill /> },
+    { id: 4, icon: <FiHeadphones /> },
   ],
 };
